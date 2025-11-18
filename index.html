@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> NUESTRA BODA </title>
 
-    <!-- Fuente elegante -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Fuentes premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <style>
         /* Fondo */
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background-image: url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1500&q=80");
             background-size: cover;
             background-position: center;
@@ -22,14 +22,14 @@
             color: #333;
         }
 
-        /* Capa translúcida para que todo se vea más claro */
+        /* Capa translúcida */
         .overlay {
             background: rgba(255, 255, 255, 0.80);
             min-height: 100vh;
             padding: 40px 0;
         }
 
-        /* Contenedor con marco */
+        /* Contenedor */
         .container {
             max-width: 1000px;
             margin: 40px auto;
@@ -39,16 +39,28 @@
             border-radius: 25px;
         }
 
+        /* Introducción */
+        .intro {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            line-height: 1.7;
+            color: #444;
+            font-weight: 400;
+            margin: 20px auto 40px;
+            max-width: 850px;
+        }
+
         /* Título */
         h1 {
-            font-size: 60px;
-            font-weight: 900;
+            font-family: 'Playfair Display', serif;
+            font-size: 70px;
+            font-weight: 700;
             color: #2282e8;
-            margin: 30px 0;
+            margin: 30px 0 10px;
             text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
         }
 
-        /* Galería de 2 columnas */
+        /* Galería */
         .gallery {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -56,7 +68,6 @@
             padding: 20px 0;
         }
 
-        /* Imágenes*/
         .gallery img {
             width: 100%;
             height: auto;
@@ -76,13 +87,14 @@
             display: inline-block;
             margin: 30px 0 50px;
             font-size: 20px;
-            font-weight: 700;
+            font-weight: 600;
             text-decoration: none;
             color: white;
             background: linear-gradient(to right, #2282e8, #ff4d9e);
             padding: 15px 35px;
             border-radius: 50px;
             transition: transform 0.3s, box-shadow 0.3s;
+            font-family: 'Poppins', sans-serif;
         }
 
         .drive-link:hover {
@@ -97,13 +109,18 @@
             }
 
             h1 {
-                font-size: 45px;
+                font-size: 48px;
             }
 
             .container {
                 padding: 15px 20px;
             }
+
+            .intro {
+                font-size: 20px;
+            }
         }
+
     </style>
 </head>
 <body>
@@ -111,10 +128,18 @@
     <div class="overlay">
 
         <div class="container">
+
             <h1>NUESTRA BODA</h1>
 
+            <!-- INTRODUCCIÓN -->
+            <p class="intro">
+                Hola, Nico y Alexa. Nos llena de alegría celebrar junto a ustedes este hermoso paso que han dado. 
+                Su compromiso marca el comienzo de una historia construida con amor, complicidad y sueños compartidos. 
+                Fue un honor capturar cada sonrisa y cada instante de este día tan especial.  
+                Aquí encontrarán un breve resumen de lo que fue este grandioso momento.
+            </p>
+
             <div class="gallery">
-                <!-- 20 imágenes -->
                 <img src="Pagina/foto1.jpg" alt="Foto 1">
                 <img src="Pagina/foto2.jpg" alt="Foto 2">
                 <img src="Pagina/foto3.jpg" alt="Foto 3">
@@ -132,30 +157,20 @@
                 <img src="Pagina/foto18.jpg" alt="Foto 18">
                 <img src="Pagina/foto19.jpg" alt="Foto 19">
                 <img src="Pagina/foto20.jpg" alt="Foto 20">
-                <img src="Pagina/foto21.jpg" alt="Foto 20">
-                <img src="Pagina/foto22.jpg" alt="Foto 20">
-                <img src="Pagina/foto23.jpg" alt="Foto 20">
-                <img src="Pagina/foto24.jpg" alt="Foto 20">
+                <img src="Pagina/foto21.jpg" alt="Foto 21">
+                <img src="Pagina/foto22.jpg" alt="Foto 22">
+                <img src="Pagina/foto23.jpg" alt="Foto 23">
+                <img src="Pagina/foto24.jpg" alt="Foto 24">
+                 <img src="Pagina/foto25.jpg" alt="Foto 24">
             </div>
 
             <a class="drive-link" href="https://drive.google.com/drive/folders/1o7mLKqWHL4W2c9--XCAbfQI0-oLR-MZW?usp=drive_link" target="_blank">
                 Ver más en Drive
             </a>
+
         </div>
 
     </div>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
